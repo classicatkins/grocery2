@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  p#total {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+.grocery-item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .grocery-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grocery List</title>
+  <link rel="stylesheet" type="text/css" href="grocery2.css">
+  
+</head>
+<body>
+  <h1>Grocery List</h1>
+  
+  <label for="item">Item:</label>
+  <input type="text" id="item" placeholder="Item">
+  
+  <label for="price">Price:</label>
+  <input type="text" id="price" placeholder="Price">
+  
+<div>
+    <button onclick="addItem()">Add Item</button>
+  <button onclick="sortItemsByName()">Sort by Name</button>
+  <button onclick="sortItemsByPrice()">Sort by Price</button>
+</div>
+
+  
+  <ul id="list"></ul>
+  <p id="total"></p>
+  <script src="grocery2.js"></script>
+ 
+</body>
+</html>
